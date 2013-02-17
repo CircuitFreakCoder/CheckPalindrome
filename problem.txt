@@ -1,0 +1,7 @@
+
+A string is a palindrome if it reads the same forward and backward.The words “mom,” “dad,”
+and “noon,” for instance, are all palindromes.
+
+Problem:
+
+Write a program that prompts the user to enter a string and reports whether the string is a palindrome.
