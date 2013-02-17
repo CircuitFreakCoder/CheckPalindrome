@@ -1,0 +1,12 @@
+
+One solution is to check whether the first character in the string is the same as the last character. 
+If so, check whether the second character is the same as the second-to-last character. 
+This process continues until a mismatch is found or all the characters in the string are checked, 
+except for the middle character if the string has an odd number of characters.
+
+ 
+
+To implement this idea, use two variables, say low and high, to denote the position of two characters 
+at the beginning and the end in a string inputString. Initially, low is 0 and high is inputString.length() – 1.
+If the two characters at these positions match, increment low by 1and decrement high by 1. 
+This process continues until (low >= high) or a mismatch is found. 
